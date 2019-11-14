@@ -21,7 +21,7 @@ html {
 }
 
 .card-title {
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, Dosis;
   color: #512200;
   font-size: .875rem;
   font-weight: bold;
@@ -46,7 +46,7 @@ html {
   font-size: .875rem;
 }
 
-.card-fact-keys ul {
+.card-fact-keys dl {
   padding: 0;
   list-style-type: none;
 }
@@ -58,7 +58,7 @@ html {
   font-size: .875rem;
 }
 
-.card-fact-values ul {
+.card-fact-values dl {
   list-style-type: none;
 }
 
