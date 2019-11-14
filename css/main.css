@@ -24,13 +24,13 @@ html {
   border-color: #9a816d;
   display: block;
   text-decoration: none;
+  color: #512200;
 }
 
 p {
   font-family: Georgia, sans-serif;
   display: inline-block;
   font-size: 1rem;
-  color: #785439;
   text-decoration: none;
 }
 
@@ -39,13 +39,11 @@ p {
   border-top: 2px #9a816d solid;
   border-bottom: 2px #9a816d solid;
   margin: 0;
-  color: #512200;
   padding: 1rem 0;
 }
 
 dl {
   font-family: Georgia, sans-serif;
-  color: #785439;
   font-size: .875rem;
   width: 100%;
   padding: 0;
@@ -54,14 +52,14 @@ dl {
 
 dt {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 0;
   margin: 0;
 }
 
 dd {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 0;
   margin: 0;
   font-style: italic;
@@ -69,32 +67,30 @@ dd {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-.link-card:hover .btn {
+a:hover .btn {
   background-color: #785439;
-}
-
-.btn-wrap {
-  padding: 1rem 3.5rem 0;
 }
 
 .btn {
-  background-color: #785439;
   padding: .4em .75em .5em;
+  background-color: #785439;
   font-family: Dosis, sans-serif;
   color: #f0eee8;
   border-radius: 8px;
   border-style: none;
   font-weight: bolder;
   font-size: 1.125rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  display: inline-block;
+}
+
+.btn-wrap {
+  padding-top: .75rem;
+  text-align: center;
 }
